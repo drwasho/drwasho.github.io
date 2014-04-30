@@ -1,7 +1,14 @@
 # DarkNet: Enter the TradeNet
 
 ```
-“Our object is to design a space that mimics the cash economies we are familiar with in the “real world”, but with more privacy, more trust, more freedom, and without privileged entities. This is a minimalist approach providing public and private ways to meet, a trusted medium to convey value, and safe places to keep it. There are simple, non-technical means for anyone to create, mint, issue, verify, reissue, and redeem a currency of their own authenticated type. This includes one-off 'coins' that represent specific assets. In this place, business is conducted conversationally in what we will call the 'Farmer's Market' model. Once this type of environment is available, individual users will be free to build more complex and specialized businesses by automating these conversations, without the need for great technical skill.”
+“Our object is to design a space that mimics the cash economies we are familiar with in the “real world”,  
+but with more privacy, more trust, more freedom, and without privileged entities. This is a minimalist approach  
+providing public and private ways to meet, a trusted medium to convey value, and safe places to keep it.  
+There are simple, non-technical means for anyone to create, mint, issue, verify, reissue, and redeem a currency  
+of their own authenticated type. This includes one-off 'coins' that represent specific assets. In this place,  
+business is conducted conversationally in what we will call the 'Farmer's Market' model. Once this type of  
+environment is available, individual users will be free to build more complex and specialized businesses by  
+automating these conversations, without the need for great technical skill.”  
 
 *Andre Goldman*, [**Toward A Private Digital Economy**](http://pelagic.wavyhill.xsmail.com/Private_Digital_Economy.html#FMM)
 ```
