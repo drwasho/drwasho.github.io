@@ -1,7 +1,7 @@
 # DarkNet: Enter the TradeNet
 
-```
-“Our object is to design a space that mimics the cash economies we are familiar with in the “real world”,  
+
+> “Our object is to design a space that mimics the cash economies we are familiar with in the “real world”,  
 but with more privacy, more trust, more freedom, and without privileged entities. This is a minimalist approach  
 providing public and private ways to meet, a trusted medium to convey value, and safe places to keep it.  
 There are simple, non-technical means for anyone to create, mint, issue, verify, reissue, and redeem a currency  
