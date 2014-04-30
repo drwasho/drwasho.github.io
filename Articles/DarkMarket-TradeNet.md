@@ -9,9 +9,8 @@ of their own authenticated type. This includes one-off 'coins' that represent sp
 business is conducted conversationally in what we will call the 'Farmer's Market' model. Once this type of  
 environment is available, individual users will be free to build more complex and specialized businesses by  
 automating these conversations, without the need for great technical skill.”  
-
-*Andre Goldman*, [Toward A Private Digital Economy](http://pelagic.wavyhill.xsmail.com/Private_Digital_Economy.html#FMM)
 ```
+**Andre Goldman**, [Toward A Private Digital Economy](http://pelagic.wavyhill.xsmail.com/Private_Digital_Economy.html#FMM)
 
 The **DarkMarket** is a lot of things to a lot of people. For some, it's a more robust and safer way to purchase illicit drugs. For others, it is just an interesting prototype created by a talented group of hackers within a short amount of time. Funnily enough, lots of people only seem interested in renaming the software into something more palatable and less legally questionable.
 
