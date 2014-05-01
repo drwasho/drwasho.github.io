@@ -6,25 +6,27 @@
 
 ## Introduction
 
-The **DarkMarket** is a lot of things to a lot of people. For some, it's a more robust and safer way to purchase illicit drugs. For others, it is just an interesting prototype created by a talented group of hackers within a short amount of time. Funnily enough, lots of people only seem interested in renaming the software into something more _respectable_, less incendiary.
+The **DarkMarket** is a lot of things to a lot of people. For some, it's a more robust and safer way to purchase illicit drugs. For others, it is just an interesting prototype created by a talented group of hackers within a short amount of time. Funnily enough, lots of people only seem interested in renaming the software into something more _respectable_ and less incendiary.
 
 However, what most people don't realise is that the **DarkMarket** is the very essence of Satoshi Nakamoto's vision for Bitcoin.
 
 ## Satoshi's Vision
 
-Have you stopped to ask yourself the question 'why'? Why is Bitcoin a distributed and decentralised monetary system?
+Why is Bitcoin a distributed and decentralised monetary system?
 
-There is much to be said about the several non-monetary uses of the blockchain... but don't forget, Satoshi forged the blockchain in the pursuit of a censorship-resistant money. *Censorship-resistant*, this is a bit of a buzz word in Bitcoin communities. Why do we use it, why do we tout censorship-resistance as a killer feature of Bitcoin? *Censorship-resistance* means that neither an individual, or a government can effectively **ban** Bitcoin. Rather, the government itself is permanently banned from controlling and/or changing the rules of Bitcoin. The blockchain does what a Constitution could never fully guarantee: monetary independence.
+There is much to be said about the several non-monetary uses of Bitcoin's underlying technology... but don't forget that Satoshi forged the blockchain in the pursuit of a censorship-resistant money. *Censorship-resistance*, this is a bit of a buzz word in Bitcoin communities. Why do we use it, why do we tout censorship-resistance as a killer feature of Bitcoin? *Censorship-resistance* means that neither an individual, or a government can effectively **ban** Bitcoin. Rather, the government itself is permanently banned from controlling and/or changing the rules of Bitcoin. The blockchain does what a Constitution could never fully guarantee as mere words on a paper: a consistent and unbreakable set of rules.
 
-The sad history of government interference in the monetary system is too lengthy and detailed to be described in this article. Regardless of whether you agree with this perspective or not, Satoshi had zero confidence in the government's management and influence over the monetary system. Satoshi believed that the future belonged to the market which - unlike the government - **is you**. If the design, security and economics of Bitcoin were worthwhile and adopted by people all over the world, it would represent a threat to the current power brokers of the monetary system. Bitcoin **had** to be censorship-resistant if it wanted to survive and thrive in the long term.  
+The sad history of government interference in the monetary system is too lengthy and detailed to be described in this article. Regardless of whether you agree or not, Satoshi had zero confidence in the government's management and influence over the monetary system. Satoshi believed that the future belonged to the __market__ which, unlike the government, **is you**. If the design, security and economics of Bitcoin were worthwhile enought to be adopted by people all over the world, it would represent an existential threat to the current power brokers of the monetary system. Bitcoin **had** to be censorship-resistant if it wanted to survive and thrive in the long term.  
 
-I also suspect that Satoshi knew that Bitcoin is not an end in itself; Bitcoin is not a consumer good. Bitcoin is a means to an end, as all good money is supposed to be. This leads to the next important question: 'What good is Bitcoin if you can't purchase any goods or services with it in a censorship-resistant manner?'. Money is just one part of the equation in an exchange... a pretty important one, but not the only *mission-critical* piece.
+I also suspect that Satoshi knew that Bitcoin is not an end in itself. Bitcoin is not a consumer good. Bitcoin is a means to an end, as all good money is supposed to be. This leads to the next important question: 'What good is Bitcoin if you can't use it purchase any goods or services in a censorship-resistant manner?'. Money is just one part of the equation in an exchange... a pretty important one, but not the only *mission-critical* piece.
 
-What the **DarkMarket** promises 
+What the **DarkMarket** promises are the remaining pieces of the puzzle to achieve a pure free market. 
 
 ## TradeNet
 
-Mike Hearn suggested that a system could be created called the 'TradeNet', which is a 24 hour bazaar for ALL goods and services, with api access for bots and DACs. Essentially think of it as part eBay, Craigslist, ELance... A nexus for users to purchase and sell contracts, and issue tenders for goods and services. Alice enters the TradeNet and wants to deliver a small package to Bob on the other side of town. She issues a tender with her requirements and is returned (in seconds) with a list of delivery services (car, bike, drone, raven) with price (in Bitcoin), time, issurance details etc. She selects the service of choice, signs the multisig transaction etc... done.
+Last year I was introduced to a concept that Mike Hearn had briefly mentioned in a presentation in made. He suggested that a trading platform could be created called the 'TradeNet'. The TradeNet would be a 24 hour bazaar for ALL goods and services, with api access for bots and DACs. Essentially think of it as part eBay, Craigslist, Elance... a nexus for users to purchase and sell contracts, and issue tenders for goods and services. 
+
+For example, Alice enters the TradeNet and wants to deliver a small package to Bob on the other side of town. She issues a tender with her requirements and is instantly presented with a list of delivery services (car, bike, drone, raven) and their corresponding price (in Bitcoin), time, reputation rating, issurance details etc. She selects the service of choice, signs the contract and performs a multisig transaction for payment escrow.
 
 The api access for bots and DACs make the whole thing rather interesting in that allows for a DAC to purchase goods and services for their own profit seeking actions without the seller knowing whether they're dealing with a human or DAC.
 
