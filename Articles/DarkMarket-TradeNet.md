@@ -20,18 +20,20 @@ The sad history of government interference in the monetary system is too lengthy
 
 I also suspect that Satoshi knew that Bitcoin is not an end in itself. Bitcoin is not a consumer good. Bitcoin is a means to an end, as all good money is supposed to be. This leads to the next important question: 'What good is Bitcoin if you can't use it purchase any goods or services in a censorship-resistant manner?'. Money is just one part of the equation in an exchange... a pretty important one, but not the only *mission-critical* piece.
 
-What the **DarkMarket** promises are the remaining pieces of the puzzle to achieve a pure free market. 
+What the **DarkMarket** promises are the remaining pieces of the puzzle to achieve a pure free market.
 
-## TradeNet
+## A Step Beyond the DarkMarket: the TradeNet
 
 Last year I was introduced to a concept that Mike Hearn had briefly mentioned in a presentation in made. He suggested that a trading platform could be created called the 'TradeNet'. The TradeNet would be a 24 hour bazaar for ALL goods and services, with api access for bots and DACs. Essentially think of it as part eBay, Craigslist, Elance... a nexus for users to purchase and sell contracts, and issue tenders for goods and services. 
 
 For example, Alice enters the TradeNet and wants to deliver a small package to Bob on the other side of town. She issues a tender with her requirements and is instantly presented with a list of delivery services (car, bike, drone, raven) and their corresponding price (in Bitcoin), time, reputation rating, issurance details etc. She selects the service of choice, signs the contract and performs a multisig transaction for payment escrow.
 
-The api access for bots and DACs make the whole thing rather interesting in that allows for a DAC to purchase goods and services for their own profit seeking actions without the seller knowing whether they're dealing with a human or DAC.
+The api access for bots and DACs make the whole thing rather interesting in that allows for a DAC to purchase goods and services for their own profit seeking actions without the seller aware of whether they're dealing with a human or DAC.
 
-So the vision of the TradeNet is to build the core infrastructure for scalable commerce outside of the regulatory system that nation states impose (creating a more efficient and I dare say fair system). Like BitTorrent, once ordinary people find it more accessible to purchase goods and services on the TradeNet, nation states will not be able to stop the ultimate goal of Bitcoin from manifesting: trustless, cryptographically secure, and censorship resistant commerce. As Tim May put it, 'permanently banning the state' from peaceful and voluntary interpersonal affairs and relationships.
+The vision of the TradeNet is to build the core infrastructure for scalable commerce outside of the regulatory system that nation states impose (creating a more efficient and I dare say fair system). Like BitTorrent, once ordinary people find it more accessible to purchase goods and services on the TradeNet, nation states will not be able to stop the ultimate goal of Bitcoin from manifesting: trustless, cryptographically secure, and censorship resistant commerce. As Tim May put it, 'permanently banning the state' from peaceful and voluntary interpersonal affairs and relationships.
 
-Lastly, the TradeNet will be a fully outfitted free market, with minimal barriers of entry, that is not necessarily free from regulation, but rather regulated by cryptography and trustless 'can't be evil' systems.
+## Conclusion
 
-This is why the interpretation of DarkMarket as merely a replacement for the SR is shortsighted in my view; it overlooks are a far more ambitious opportunity.
+The TradeNet will be a fully outfitted free market, with minimal barriers of entry, that is not necessarily free from regulation, but rather regulated by cryptography and trustless 'can't be evil' systems.
+
+This is why the interpretation of DarkMarket as merely a replacement for the Silk Road is shortsighted in my view; it overlooks are a far more ambitious opportunity. With more active development, the DarkMarket can functionally be constructed to become the TradeNet.
