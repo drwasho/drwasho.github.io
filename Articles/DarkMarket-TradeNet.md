@@ -24,9 +24,9 @@ What the **DarkMarket** promises are the remaining pieces of the puzzle to achie
 
 ## A Step Beyond the DarkMarket: the TradeNet
 
-Last year I was introduced to a concept that Mike Hearn had briefly mentioned in a presentation in made. He suggested that a trading platform could be created called the 'TradeNet'. The TradeNet would be a 24 hour bazaar for ALL goods and services, with api access for bots and DACs. Essentially think of it as part eBay, Craigslist, Elance... a nexus for users to purchase and sell contracts, and issue tenders for goods and services. 
+Last year I was introduced to a concept that Mike Hearn introduced [in a presentation](https://www.youtube.com/watch?v=Pu4PAMFPo5Y) called the **TradeNet**. The TradeNet is a trading platform, a 24 hour bazaar for __ALL__ goods and services with api access for bots and DACs. Essentially think of it as part eBay, Craigslist, Elance... a nexus for users to purchase and sell contracts, and issue tenders for goods and services. 
 
-For example, Alice enters the TradeNet and wants to deliver a small package to Bob on the other side of town. She issues a tender with her requirements and is instantly presented with a list of delivery services (car, bike, drone, raven) and their corresponding price (in Bitcoin), time, reputation rating, issurance details etc. She selects the service of choice, signs the contract and performs a multisig transaction for payment escrow.
+For example, Alice enters the TradeNet and wants to deliver a small package to Bob on the other side of town. She issues a tender with her requirements and is instantly presented with a list of contracts (car, bike, drone, raven etc) and their corresponding price in bitcoin, estimated time of delivery, reputation (ratings, reviews), insurance details (e.g. surety bond), and other relevant fields. Alice selects the contract of choice, signs the contract and performs a multisig transaction for payment escrow.
 
 The api access for bots and DACs make the whole thing rather interesting in that allows for a DAC to purchase goods and services for their own profit seeking actions without the seller aware of whether they're dealing with a human or DAC.
 
