@@ -1,61 +1,159 @@
-# **The Rule of Code**
 
-#### the ideation blog of ```drwasho```
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-> What is better than the rule of law? The rule of code.
+body{
+  color:#444;
+  font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+              "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+  font-size:12px;
+  line-height:1.5em;
+  background:#fefefe;
+  width: 45em;
+  margin: 10px auto;
+  padding: 1em;
+  outline: 1300px solid #FAFAFA;
+}
 
--------
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
 
-# Overview
+span.backtick {
+  border:1px solid #EAEAEA;
+  border-radius:3px;
+  background:#F8F8F8;
+  padding:0 3px 0 3px;
+}
 
-My name is ```drwasho```. I'm very intersted in the crypto-currency space and the cypherpunk movement in general. I'll be re-posting some of my articles, written on other sites, here for posterity.  
-If you like what I've written, please donat: ```1HPrnsTrWfpECnbyeA6idkwFgSzFLJ6ABy```
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
 
--------
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
 
-*Monday - May 05, 2014.*  
-```1 BTC = $442.1 USD```
+p{
+margin:1em 0;
+}
 
-![0](http://www.johnharveyphoto.com/HongKong/StreetMarketNearHelensGrandparentsHg.jpg)
+img{
+max-width:100%;
+}
 
-# DarkMarket: Enter the TradeNet
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+h4,h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1em; }
+h6{ font-size:0.9em; }
 
-> Our object is to design a space that mimics the cash economies we are familiar with in the “real world”, but with more privacy, more trust, more freedom, and without privileged entities. This is a minimalist approach providing public and private ways to meet, a trusted medium to convey value, and safe places to keep it. There are simple, non-technical means for anyone to create, mint, issue, verify, reissue, and redeem a currency of their own authenticated type. This includes one-off 'coins' that represent specific assets. In this place, business is conducted conversationally in what we will call the 'Farmer's Market' model. Once this type of environment is available, individual users will be free to build more complex and specialized businesses by automating these conversations, without the need for great technical skill.
+blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
 
-**Andre Goldman**, [Toward A Private Digital Economy](http://pelagic.wavyhill.xsmail.com/Private_Digital_Economy.html#FMM)
 
-## Introduction
+pre , code, kbd, samp { 
+  color: #000; 
+  font-family: monospace; 
+  font-size: 0.88em; 
+  border-radius:3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC; 
+}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+pre code { border: 0px !important; padding: 0;}
+code { padding: 0 3px 0 3px; }
 
-The **DarkMarket** is a lot of things to a lot of people. For some, it's a more robust and safer way to purchase illicit drugs. For others, it is just an interesting prototype created by a talented group of hackers within a short amount of time. Funnily enough, lots of people only seem interested in renaming the software into something more _respectable_ and less incendiary.
+b, strong { font-weight: bold; }
 
-However, what most people don't realise is that the **DarkMarket** is the very essence of Satoshi Nakamoto's vision for Bitcoin.
+dfn { font-style: italic; }
 
-## Satoshi's Vision
+ins { background: #ff9; color: #000; text-decoration: none; }
 
-Why is Bitcoin a distributed and decentralised monetary system?
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
 
-There is much to be said about the several non-monetary uses of Bitcoin's underlying technology... but don't forget that Satoshi forged the blockchain in the pursuit of a censorship-resistant money. *Censorship-resistance*, this is a bit of a buzz word in Bitcoin communities. Why do we use it, why do we tout censorship-resistance as a killer feature of Bitcoin? *Censorship-resistance* means that neither an individual, or a government can effectively **ban** Bitcoin. Rather, the government itself is permanently banned from controlling and/or changing the rules of Bitcoin. The blockchain does what a Constitution could never fully guarantee as mere words on a paper: a consistent and unbreakable set of rules. What is better than the rule of law? The rule of code.
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
 
-The sad history of government interference in the monetary system is too lengthy and detailed to be described in this article. Regardless of whether you agree or not, Satoshi had zero confidence in the government's management and influence over the monetary system. Satoshi believed that the future belonged to the __market__ which, unlike the government, **is you**. If the design, security and economics of Bitcoin were worthwhile enough to be adopted by people all over the world, it would represent an existential threat to the current power brokers of the monetary system. Bitcoin **had** to be censorship-resistant if it wanted to survive and thrive in the long term.  
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
 
-I also suspect that Satoshi knew that Bitcoin is not an end in itself. Bitcoin is not a consumer good. Bitcoin is a means to an end, as all good money is supposed to be. This leads to the next important question: 'What good is Bitcoin if you can't use it purchase any goods or services in a censorship-resistant manner?'. Money is just one part of the equation in an exchange... a pretty important one, but not the only *mission-critical* piece.
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
-What the **DarkMarket** promises are the remaining pieces of the puzzle to achieve a pure free market.
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
 
-Alarmists will obsess over the possibility of using the **DarkMarket** to create the next generation Silk Road. The motivation of these alarmists are to neuter the potential of Bitcoin anf preserve the existing financial order.
+@media only screen and (min-width: 480px) {
+body{font-size:14px;}
+}
 
-## A Step Beyond the DarkMarket: the **TradeNet**
+@media only screen and (min-width: 768px) {
+body{font-size:16px;}
+}
 
-Last year I was introduced to a concept that Mike Hearn [presented](https://www.youtube.com/watch?v=Pu4PAMFPo5Y) called the **TradeNet**. The **TradeNet** is a trading platform, a 24 hour bazaar for __ALL__ goods and services that is also equipped with api access for bots and DACs. Essentially think of it as a hybrid of eBay, Craigslist, Elance. **TradeNet** is a censorship resistant nexus for users to buy and sell contracts for goods and services. 
-
-For example, Alice enters the **TradeNet** and wants to deliver a small package to Bob on the other side of town. She issues a tender with her requirements and is instantly presented with a list of contracts (car, bike, drone, raven etc) and their corresponding price in bitcoin, estimated time of delivery, reputation (ratings, reviews), insurance details (e.g. surety bond), and other relevant fields. Alice selects the contract of choice, signs the contract and performs a multisig transaction for payment escrow.
-
-The api access for bots and DACs make the whole thing rather interesting in that allows for a DAC to purchase goods and services for their own profit seeking actions without the seller aware of whether they're dealing with a human or DAC.
-
-The vision of the **TradeNet** is to build the core infrastructure for scalable commerce outside of the regulatory system that nation states impose (creating a more efficient and I dare say fair system). Like BitTorrent, once -ordinary people find it more accessible to purchase goods and services on the **TradeNet**, nation states will not be able to stop the ultimate goal of Bitcoin from manifesting: trustless, cryptographically secure, and censorship resistant commerce. As Tim May put it, 'permanently banning the state' from peaceful and voluntary interpersonal affairs and relationships.
-
-## Conclusion
-
-The **TradeNet** will be a fully outfitted free market, with minimal barriers of entry, that is not necessarily free from regulation, but rather regulated by cryptography and trustless 'can't be evil' systems.
-
-This is why the interpretation of DarkMarket as merely a replacement for the Silk Road is shortsighted in my view; it overlooks are a far more ambitious opportunity. With more active development, the DarkMarket can functionally be constructed to become the **TradeNet**.
+@media print {
+  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%; outline:none;}
+  a, a:visited { text-decoration: underline; }
+  hr { height: 1px; border:0; border-bottom:1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page :left { margin: 15mm 20mm 15mm 10mm; }
+  @page :right { margin: 15mm 10mm 15mm 20mm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</style><title>DarkMarket</title></head><body><h1 id="the-rule-of-code"><strong>The Rule of Code</strong></h1>
+<h4 id="the-ideation-blog-of-drwasho">the ideation blog of <code>drwasho</code></h4>
+<blockquote>
+<p>What is better than the rule of law? The rule of code.</p>
+</blockquote>
+<hr />
+<h1 id="overview">Overview</h1>
+<p>My name is <code>drwasho</code>. I'm very intersted in the crypto-currency space and the cypherpunk movement in general. I'll be re-posting some of my articles, written on other sites, here for posterity.  </p>
+<p>If you like what I've written, please donate: <code>1HPrnsTrWfpECnbyeA6idkwFgSzFLJ6ABy</code></p>
+<hr />
+<p><em>Monday - May 05, 2014.</em><br />
+<code>1 BTC = $442.1 USD</code></p>
+<p><img alt="0" src="http://www.johnharveyphoto.com/HongKong/StreetMarketNearHelensGrandparentsHg.jpg" /></p>
+<h1 id="darkmarket-enter-the-tradenet">DarkMarket: Enter the TradeNet</h1>
+<blockquote>
+<p>Our object is to design a space that mimics the cash economies we are familiar with in the “real world”, but with more privacy, more trust, more freedom, and without privileged entities. This is a minimalist approach providing public and private ways to meet, a trusted medium to convey value, and safe places to keep it. There are simple, non-technical means for anyone to create, mint, issue, verify, reissue, and redeem a currency of their own authenticated type. This includes one-off 'coins' that represent specific assets. In this place, business is conducted conversationally in what we will call the 'Farmer's Market' model. Once this type of environment is available, individual users will be free to build more complex and specialized businesses by automating these conversations, without the need for great technical skill.</p>
+</blockquote>
+<p><strong>Andre Goldman</strong>, <a href="http://pelagic.wavyhill.xsmail.com/Private_Digital_Economy.html#FMM">Toward A Private Digital Economy</a></p>
+<h2 id="introduction">Introduction</h2>
+<p>The <strong>DarkMarket</strong> is a lot of things to a lot of people. For some, it's a more robust and safer way to purchase illicit drugs. For others, it is just an interesting prototype created by a talented group of hackers within a short amount of time. Funnily enough, lots of people only seem interested in renaming the software into something more <em>respectable</em> and less incendiary.</p>
+<p>However, what most people don't realise is that the <strong>DarkMarket</strong> is the very essence of Satoshi Nakamoto's vision for Bitcoin.</p>
+<h2 id="satoshi-s-vision">Satoshi's Vision</h2>
+<p>Why is Bitcoin a distributed and decentralised monetary system?</p>
+<p>There is much to be said about the several non-monetary uses of Bitcoin's underlying technology... but don't forget that Satoshi forged the blockchain in the pursuit of a censorship-resistant money. <em>Censorship-resistance</em>, this is a bit of a buzz word in Bitcoin communities. Why do we use it, why do we tout censorship-resistance as a killer feature of Bitcoin? <em>Censorship-resistance</em> means that neither an individual, or a government can effectively <strong>ban</strong> Bitcoin. Rather, the government itself is permanently banned from controlling and/or changing the rules of Bitcoin. The blockchain does what a Constitution could never fully guarantee as mere words on a paper: a consistent and unbreakable set of rules. What is better than the rule of law? The rule of code.</p>
+<p>The sad history of government interference in the monetary system is too lengthy and detailed to be described in this article. Regardless of whether you agree or not, Satoshi had zero confidence in the government's management and influence over the monetary system. Satoshi believed that the future belonged to the <strong>market</strong> which, unlike the government, <strong>is you</strong>. If the design, security and economics of Bitcoin were worthwhile enough to be adopted by people all over the world, it would represent an existential threat to the current power brokers of the monetary system. Bitcoin <strong>had</strong> to be censorship-resistant if it wanted to survive and thrive in the long term.  </p>
+<p>I also suspect that Satoshi knew that Bitcoin is not an end in itself. Bitcoin is not a consumer good. Bitcoin is a means to an end, as all good money is supposed to be. This leads to the next important question: 'What good is Bitcoin if you can't use it purchase any goods or services in a censorship-resistant manner?'. Money is just one part of the equation in an exchange... a pretty important one, but not the only <em>mission-critical</em> piece.</p>
+<p>What the <strong>DarkMarket</strong> promises are the remaining pieces of the puzzle to achieve a pure free market.</p>
+<p>Alarmists will obsess over the possibility of using the <strong>DarkMarket</strong> to create the next generation Silk Road. The motivation of these alarmists are to neuter the potential of Bitcoin anf preserve the existing financial order.</p>
+<h2 id="a-step-beyond-the-darkmarket-the-tradenet">A Step Beyond the DarkMarket: the <strong>TradeNet</strong></h2>
+<p>Last year I was introduced to a concept that Mike Hearn <a href="https://www.youtube.com/watch?v=Pu4PAMFPo5Y">presented</a> called the <strong>TradeNet</strong>. The <strong>TradeNet</strong> is a trading platform, a 24 hour bazaar for <strong>ALL</strong> goods and services that is also equipped with api access for bots and DACs. Essentially think of it as a hybrid of eBay, Craigslist, Elance. <strong>TradeNet</strong> is a censorship resistant nexus for users to buy and sell contracts for goods and services. </p>
+<p>For example, Alice enters the <strong>TradeNet</strong> and wants to deliver a small package to Bob on the other side of town. She issues a tender with her requirements and is instantly presented with a list of contracts (car, bike, drone, raven etc) and their corresponding price in bitcoin, estimated time of delivery, reputation (ratings, reviews), insurance details (e.g. surety bond), and other relevant fields. Alice selects the contract of choice, signs the contract and performs a multisig transaction for payment escrow.</p>
+<p>The api access for bots and DACs make the whole thing rather interesting in that allows for a DAC to purchase goods and services for their own profit seeking actions without the seller aware of whether they're dealing with a human or DAC.</p>
+<p>The vision of the <strong>TradeNet</strong> is to build the core infrastructure for scalable commerce outside of the regulatory system that nation states impose (creating a more efficient and I dare say fair system). Like BitTorrent, once -ordinary people find it more accessible to purchase goods and services on the <strong>TradeNet</strong>, nation states will not be able to stop the ultimate goal of Bitcoin from manifesting: trustless, cryptographically secure, and censorship resistant commerce. As Tim May put it, 'permanently banning the state' from peaceful and voluntary interpersonal affairs and relationships.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The <strong>TradeNet</strong> will be a fully outfitted free market, with minimal barriers of entry, that is not necessarily free from regulation, but rather regulated by cryptography and trustless 'can't be evil' systems.</p>
+<p>This is why the interpretation of DarkMarket as merely a replacement for the Silk Road is shortsighted in my view; it overlooks are a far more ambitious opportunity. With more active development, the DarkMarket can functionally be constructed to become the <strong>TradeNet</strong>.</p></body></html>
