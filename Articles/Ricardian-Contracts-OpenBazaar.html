@@ -1,0 +1,248 @@
+
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body{
+  color:#444;
+  font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
+              "Hiragino Sans GB", "STXihei", "微软雅黑", serif;
+  font-size:12px;
+  line-height:1.5em;
+  background:#fefefe;
+  width: 45em;
+  margin: 10px auto;
+  padding: 1em;
+  outline: 1300px solid #FAFAFA;
+}
+
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+span.backtick {
+  border:1px solid #EAEAEA;
+  border-radius:3px;
+  background:#F8F8F8;
+  padding:0 3px 0 3px;
+}
+
+::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+::selection{background:rgba(255,255,0,0.3);color:#000}
+
+a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+p{
+margin:1em 0;
+}
+
+img{
+max-width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+h4,h5,h6{ font-weight: bold; }
+h1{ font-size:2.5em; }
+h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1em; }
+h6{ font-size:0.9em; }
+
+blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+
+pre , code, kbd, samp { 
+  color: #000; 
+  font-family: monospace; 
+  font-size: 0.88em; 
+  border-radius:3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC; 
+}
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
+pre code { border: 0px !important; padding: 0;}
+code { padding: 0 3px 0 3px; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 }
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only screen and (min-width: 480px) {
+body{font-size:14px;}
+}
+
+@media only screen and (min-width: 768px) {
+body{font-size:16px;}
+}
+
+@media print {
+  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%; outline:none;}
+  a, a:visited { text-decoration: underline; }
+  hr { height: 1px; border:0; border-bottom:1px solid black; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page :left { margin: 15mm 20mm 15mm 10mm; }
+  @page :right { margin: 15mm 10mm 15mm 20mm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</style><title>Ricardian contract proposal</title></head><body><h1 id="ricardian-contract">Ricardian Contract</h1>
+<h2 id="what-is-a-ricardian-contract">What is a Ricardian Contract</h2>
+<blockquote>
+<p>A Ricardian Contract can be defined as a single document that is a) a contract offered by an issuer to holders, b) for a valuable right held by holders, and managed by the issuer, c) easily readable by people (like a contract on paper), d) readable by programs (parsable like a database), e) digitally signed, f) carries the keys and server information, and g) allied with a unique and secure identifier.</p>
+</blockquote>
+<p><a href="http://iang.org/papers/ricardian_contract.html">Source</a></p>
+<p>The Ricardian contract is a means of tracking the liability of one party to another when selling goods to each other in <em>OpenBazaar</em>. Fundamentally, a contract represents a single unit of a good or service.</p>
+<p>Ricardian contracts should be used in <em>OpenBazaar</em> as they are means of effectively tracking legitimately signed agreements between two parties, which cannot be forged after the contract has been signed.</p>
+<h2 id="issuing-a-contract-structure">Issuing a Contract: Structure</h2>
+<p>The contract is saved as an xml file, with the SHA1 hash of the file as part of the file name. Within the xml file, the contract contains the following structure:</p>
+<pre><code>1. Contract terms
+    - Seller's nym
+    - Node address
+    - Seller's bitcoin pubkey (for multisig transactions)
+    - Merchant Data
+        - What is to be sold
+        - Price per unit
+        - Additional conditional detail unforseen in this proposal
+    - Contract expiration date
+    - Seller's PGP public key
+2. All of the above is digitally signed with the seller's private PGP key
+</code></pre>
+
+<h4 id="example">Example:</h4>
+<p>Alice wants to sell a 16 pount watermelon. She creates the contract below, signs it with her nym key (her private PGP key) and distributes/seeds it on the <em>OpenBazaar</em> network. </p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+&lt;?xml version=&quot;1.0&quot;?&gt;
+
+&lt;!-- Seller's NYM --&gt;
+    &lt;nym_id&gt; ALICE-NYM-ID-HASH &lt;/nym_id&gt;
+
+&lt;!-- Node Address --&gt;
+    &lt;node_addr&gt; Second star to the right, straight on 'till morning. &lt;/node_addr&gt;
+
+&lt;!-- Bitcoin Pubkey --&gt;
+    &lt;btc_addr&gt; 03d728ad6757d4784effea04d47baafa216cf474866c2d4dc99b1e8e3eb936e730 &lt;/btc_addr&gt;
+
+&lt;!-- Merchant Data --&gt;
+    &lt;asset_name&gt; 16 Pound Watermelon &lt;/asset_name&gt;
+    &lt;asset_price&gt; 0.01 BTC &lt;/asset_price&gt;
+
+&lt;!-- Contract Expiration Date --&gt;
+    &lt;contract_exp&gt; YYYY-MM-DD TIME UTC &lt;/contract_exp&gt;
+
+&lt;!-- Seller's PGP Key --&gt;
+&lt;PGP_Public_Key&gt;
+- -----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: BCPG v1.47
+
+mQINBFMZcEIBEADJlq0oVgLfFDdW9WOBguskPdSSeAfHe4s9w8QlmRuO/Zj548gK
+fofbM84rtP3rHSOSkeOTsu5GwDt48V/md6gyJ69BTZJkJ6qmxFtGaWVRLP/UD4ma
+vW4EAn3PvWY6X7Z8x36U3j2I6vknH1Ufu5Dh5qvQC3WsMliul9ZxlJQZ1/TkQE+q
+I/gBPRmsMFZ/xV2VOEjMtM3qOPoemhYFzU39/ra0isk81sXrotySkvWw6zsrx8Nr
+kBaw9mxhs0kumF06AfKSrBjyt/FIdbJaWtNrCdxJ+NMfzQUHmq9bzpBI2VpNJzFQ
+I4WlO8eRYDS1Z88VxXOjMZchd70JfNNWcXwCUeOA/HUgHO4tWczvb/5/C5pfZRKu
+DqfOLntcMEzpPxbhAbXvU+K5TK394SGgu9ioXl3rdrFj1B1EBPH2BfnOdwCiOOr5
+ccWVPUHdG34i4D98ARgeqEDxq9/WZwq8FG9rgSszqkmnGQtSZxz8aoW1kU1h1SQu
+mqs2ZUrEoLGACkNg16kRq2z7RBLc4MAm3/GW3ygeEFQxK0PMief0X2+l0oVo7a0A
+RMLLLx4ckuoX3DIJvBegFPvlp0rO3JihdzNmCqIBTDok7D0k2NiQsm3WDJHAYB+8
+G4ruHVPAOzPNxz5krF+u71jcWmZKO4FRAcXCrWTQCku7wLyzOF80sVEDlwARAQAB
+tGNEciBXYXNoaW5ndG9uIFlhbWFuZHUgU2FuY2hleiAoMjAxNCBLZXlwYWlyIGZv
+ciBuZXcgZW1haWwgYWRkcmVzcykgPHdhc2hpbmd0b24uc2FuY2hlekBvdXRsb29r
+LmNvbT6JAjkEEwECACMFAlMZcEICGw8HCwkIBwMCAQYVCAIJCgsEFgIDAQIeAQIX
+gAAKCRDgeMiuv/IyzzaGEACiYWINH5utgquhNPIGl8oPXQwi3cdHbLROXk9s8K5j
+umxO3qyzrZuag+M39eKrDOgMTteLcCuJV+9sgdmSJHsLuH9o9/PPwaKHsY995C0Y
+5ZRsvABRQbHoOJPsdq136gH2Z0kW/RJ2fqQfNrDiqyPJpWTkrnnRZF2XU8OlIAq+
+BsyeVqxOiht1vMIz2TX/LanbP6leas7Wah1GRuzhd68+NCyCUQJ4bnBDv6cbGwXR
+Vi7kOOvXYoTilCENdbSuYfGWrq7z54DrefjTP3+0Y/YTWwUQr/yvXi915UCDVU+T
+6jaqCwtqmezr1VjkMrFQOOrOY7jWmYo4AwQfr4hW9iLdiggr6bPmz0YRfT83a9r9
+Z+SmU4zuLWmmJXARiUGBwhXUmyqFQa1yjCVI+50uW8Wx3iDot9qiO7gSB878Zq1s
+Ktt3EXolTDGgpVIxZ78do42X02wD8gwGGOdDU3Dzywjy3qcIbVWreuT8tEvCU+Wx
+w0TGzeoBLcHezhLEbaAOmE5jAmKPL9EbRQBGS1nV3uwzW24vu9ftNqmseYXC2afW
+DCulmUHHAQEfleJA/mKii2mYV7Yxclib81+EzkzJBPijgUJBN9A1PxqliF8ZDXF/
+h/jQomASoDBAL8VWo7qwTQlc5CZKZ6xnUZGdUU9lFBmnclw0A6PrMBaZjm1zeKJr
+1Q==
+=7M1T
+- -----END PGP PUBLIC KEY BLOCK-----
+&lt;/PGP_Public_Key&gt;
+-----BEGIN PGP SIGNATURE-----
+Version: BCPG v1.47
+
+iQKBBAEBAgBrBQJTggMLZBxEciBXYXNoaW5ndG9uIFlhbWFuZHUgU2FuY2hleiAo
+MjAxNCBLZXlwYWlyIGZvciBuZXcgZW1haWwgYWRkcmVzcykgPHdhc2hpbmd0b24u
+c2FuY2hlekBvdXRsb29rLmNvbT4ACgkQ4HjIrr/yMs+JOxAAmNSsKz0RFFOvIUXr
+0fKlt4GirttdRIRsOaYh4X6ncAHviQQ2N6KI6XxsYXt62do2ysEodpRJAyW5aPuS
+8EN4d24HJyQ5ycBQ3zMogQ/hXGq7mlRFabHdVsCSHPsiIOuW4myrd3Tn60VPvD+v
+Ruutixer+q/AsnLuYXQ9vGReAAEOmtPcW2XLp7tUPvlMhYy9PaZD62SMFKxvlg04
+8WB4gzrB96tdsyJCeIfTPP9RiZm9kCm0SzQoQPiN5eEB8sS/5QRCQFQThqNxEx2R
+T0ABs9dAmVsyVM1JjYbujN5vtMgHFI0pb4epgzoix0sy5heJnGx/ypdaHdhhEmhX
+2WDEfenKMi6e10zHzWb3Dh7TzhYsNK8ZYGcs4yLD0VUZufWPqk0w3/R5Mwbext9j
+6lDBBDDpX6y+Cj7L1Zm9N0/7N+RCoR70uNrak1wrtgAacPWgcsqPL02NUM7PeI4W
+iT82PRHSUxEztBfSvs5jdFm1EETcRlyC3Cy7DjEOfPR1m/s2yDh9nNoV51EVrHNe
+1gulNUpaf/qzI5g1yJ8aK6ABZ7brACzEsaSt4+G7rE9cMms6sop6vtYU2zAdzQx3
+6NawundeH247/yhCiANWbr/V31nnW7E2rQ3LRttCzxcF//lIbNtrbz/Fv9g6TnSD
+48xXkyll6o97nfcJEbRsb3bBGXg=
+=dWdz
+-----END PGP SIGNATURE-----
+</code></pre>
+
+<h2 id="buying-a-contract-on-openbazaar">Buying a Contract on <em>OpenBazaar</em></h2>
+<p>The process for buying a contract is summarised by the following steps:</p>
+<pre><code>1. The buyer digitally signs the seller's contract and sends it back to the seller
+    - The buyer's version of the contract appends the following data to the original contract:
+        1. Buyer's nym
+        2. Node address
+        3. Buyer's bitcoin pubkey (for multisig transactions)
+        4. Buyer's PGP public key
+    - Filename is the hash of the contract
+2. The seller agrees to the transaction by digitally signing the buyer's version of the contract and sending the contract to 1) a potential arbiter, and 2) the buyer
+    - Filename is the hash of the contract
+3. The arbiter agrees to mediate the transaction by digitally signing the contract AND creaties a 2-of-3 multisig address
+    - The arbiter's version of the contract appends the following data to the contract:
+        1. Arbiter nym
+        2. Node address
+        3. Arbiter's bitcoin pubkey (for multisig transactions)
+        4. Arbiter's PGP public key
+        5. Generated multisig address from the buyer, seller and arbiter's pubkeys
+        6. Redemption script of the multisig address
+    - Filename is the hash of the contract
+4. The arbiter sends the final version of the triple-signed contract, with a multisig address, to the buyer and seller
+</code></pre>
+
+<p>Using this process, the terms and conditions of the contract cannot be disputed and are impossible to forge.</p></body></html>
